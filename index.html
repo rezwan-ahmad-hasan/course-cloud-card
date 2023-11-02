@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Inter", sans-serif;
+      }
+      body
+      {
+        margin: 30px 30px 30px 30px;
+      }
+      .rah_card {
+        width: 510px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+      }
+      .rah_card_main_part {
+        width: 100%;
+        border-radius: 17.311px;
+        border: 2px solid rgba(5, 111, 222, 0.1);
+        background: #fff;
+        box-shadow: 4.32764px 3.46211px 20.77266px 0px rgba(0, 0, 0, 0.1);
+        padding: 20.773px 13.848px 20.773px 40px;
+        margin-bottom: 0px;
+        z-index: 10;
+      }
+      .rah_card_flex_items {
+        width: 100%;
+        display: flex;
+        align-items: center;
+      }
+      .rah_profile_image {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+      }
+      .rah_profile_details {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: space-between;
+      }
+      .rah_profile_details h2 {
+        color: #056fde;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 150%;
+        font-family: "Inter", sans-serif;
+      }
+      .rah_profile_details h5 {
+        color: #727272;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 150%;
+        font-family: "Inter", sans-serif;
+      }
+      .rah_opinion {
+        width: 100%;
+        margin-top: 20.77px;
+        color: #454545;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 150%;
+        font-family: "Inter", sans-serif;
+      }
+      .rah_extra_part {
+        width: 93%;
+        height: 22px;
+        background: #fff;
+        box-shadow: 0px 4.32764px 43.27637px 4.32764px rgba(0, 0, 0, 0.15);
+        border-bottom-left-radius: 17.311px;
+        border-bottom-right-radius: 17.311px;
+        margin: 0 auto;
+        z-index: 0;
+      }
+
+      @media (max-width: 767px) {
+        .rah_card {
+          max-width: 173px !important;
+        }
+        .rah_profile{
+            width: 25.22px !important;
+            height: 25.22px!important;
+        }
+        .rah_profile_details h2 {
+          font-size: 10px;
+        }
+        .rah_profile_details h5 {
+          font-size: 6px;
+        }
+        .rah_card_main_part {
+          padding: 7px 4px 7px 12px !important;
+          border-radius: 5.966px;
+          border: 0.689px solid rgba(5, 111, 222, 0.1);
+          box-shadow: 1.4914px 1.19312px 7.1587px 0px rgba(0, 0, 0, 0.1);
+        }
+        .rah_opinion {
+          font-size: 8px;
+          margin-top: 7.16px;
+          color: #2d3748;
+        }
+        .rah_extra_part {
+            height: 5.55px;
+          border-bottom-left-radius: 5.966px;
+          border-bottom-right-radius: 5.966px;
+          box-shadow: 0px 1.4914px 14.91397px 1.4914px rgba(0, 0, 0, 0.15);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rah_card">
+      <div class="rah_card_main_part">
+        <div class="rah_card_flex_items">
+          <div class="rah_profile_image">
+            <img
+              class="rah_profile"
+              src="https://coursecloud.org/wp-content/uploads/2023/11/Group-91.png"
+              alt="profile"
+            />
+          </div>
+          <div class="rah_profile_details">
+            <h2>Robert Mugabe</h2>
+            <h5>Best Selling Author</h5>
+          </div>
+        </div>
+        <p class="rah_opinion">
+          Word press for Beginner- Master Press Quickly Based on our Mastery
+          Coursed
+        </p>
+      </div>
+      <div class="rah_extra_part"></div>
+    </div>
+  </body>
+</html>
